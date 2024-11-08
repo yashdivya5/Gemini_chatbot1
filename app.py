@@ -6,7 +6,6 @@ model = genai.GenerativeModel('gemini-pro')
 import os
 my_api_key_gemini = 'AIzaSyCSo1fJ28TlzON1wDm5JvuijMGEc5Dr1t4'  # Replace with the actual key for testing
 
-
 genai.configure(api_key=my_api_key_gemini)
 
 app = Flask(__name__)
